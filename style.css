@@ -1,0 +1,26 @@
+section {
+    padding : 5%;
+}
+
+footer {
+    position: absolute;
+    bottom : 0;
+    width: 100%;
+    color : white;
+    text-align: center;
+    padding : 5px;
+}
+
+.nav-link {
+    color : white;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gridContainer > * {
+    margin : 5px;
+}
+
